@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/just-boot-everything.iml" filepath="$PROJECT_DIR$/just-boot-everything.iml" />
+      <module fileurl="file://$PROJECT_DIR$/just-boot-mybatis/just-boot-mybatis.iml" filepath="$PROJECT_DIR$/just-boot-mybatis/just-boot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/just-boot-rabbitmq/just-boot-rabbitmq.iml" filepath="$PROJECT_DIR$/just-boot-rabbitmq/just-boot-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/just-boot-redis/just-boot-redis.iml" filepath="$PROJECT_DIR$/just-boot-redis/just-boot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/just-boot-zookeeper/just-boot-zookeeper.iml" filepath="$PROJECT_DIR$/just-boot-zookeeper/just-boot-zookeeper.iml" />
+    </modules>
+  </component>
+</project>
