@@ -4,19 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.mekcone</groupId>
-        <artifactId>just-boot-everything</artifactId>
+        <artifactId>just-boot-rabbitmq</artifactId>
         <version>1.0.0</version>
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
-
-    <artifactId>just-boot-rabbitmq</artifactId>
+    <artifactId>just-boot-rabbitmq-producer</artifactId>
     <version>1.0.0</version>
-    <name>rabbitmq demo</name>
+    <name>just-boot-rabbitmq-producer</name>
     <description>Demo project for Spring Boot</description>
-
-    <modules>
-        <module>just-boot-rabbitmq-producer</module>
-        <module>just-boot-rabbitmq-consumer</module>
-    </modules>
 
     <properties>
         <java.version>1.8</java.version>
@@ -25,25 +20,8 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-amqp</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.amqp</groupId>
-            <artifactId>spring-rabbit-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.junit.vintage</groupId>
-                    <artifactId>junit-vintage-engine</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
     </dependencies>
 

@@ -1,10 +1,10 @@
-package spring.practice.redis;
+package just.boot.rabbitmq.producer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ConcurrencyDatabaseOperationApplicationTests {
+class RabbitmqProducerApplicationTests {
 
     @Test
     void contextLoads() {
