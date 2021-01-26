@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "fa77fbcc-eb7a-49b8-b330-e3a319a5cb0a",
+		"name": "just-boot-mybatis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Search single product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:13306/product/hcveasdfasddfwe",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "13306",
+					"path": [
+						"product",
+						"hcveasdfasddfwe"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

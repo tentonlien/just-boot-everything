@@ -1,10 +1,8 @@
 package just.boot.redis.controller;
 
+import just.boot.redis.util.RedisUtil;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import just.boot.redis.service.RedisService;
 
 /**
@@ -31,5 +29,15 @@ public class BasicController {
     @GetMapping("/list")
     public String list() {
         return redisService.list().toString();
+    }
+
+    @PostMapping("lock")
+    public boolean lock(@RequestParam String key, @RequestParam String request, @RequestParam String expire) {
+        return RedisUtil.getLock(key, request, expire);
+    }
+
+    @DeleteMapping("lock")
+    public boolean unlock(@RequestParam String key, @RequestParam String request) {
+        return RedisUtil.releaseLock(key, request);
     }
 }
