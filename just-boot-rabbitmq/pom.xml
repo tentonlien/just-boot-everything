@@ -12,6 +12,7 @@
     <version>1.0.0</version>
     <name>rabbitmq demo</name>
     <description>Demo project for Spring Boot</description>
+    <packaging>pom</packaging>
 
     <modules>
         <module>just-boot-rabbitmq-producer</module>
