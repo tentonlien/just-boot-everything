@@ -10,10 +10,14 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>just-boot-cache</module>
+        <module>just-boot-elasticsearch</module>
         <module>just-boot-file</module>
+        <module>just-boot-kafka</module>
         <module>just-boot-mongodb</module>
         <module>just-boot-mybatis</module>
         <module>just-boot-prometheus</module>
+        <module>just-boot-quartz</module>
         <module>just-boot-rabbitmq</module>
         <module>just-boot-redis</module>
         <module>just-boot-zookeeper</module>
