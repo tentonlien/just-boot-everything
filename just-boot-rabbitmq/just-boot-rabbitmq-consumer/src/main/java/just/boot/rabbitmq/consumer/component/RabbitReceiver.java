@@ -13,6 +13,6 @@ public class RabbitReceiver {
 
     @RabbitHandler
     public void receive(String msg) {
-        System.out.println("Received: " + msg);
+        System.out.println(Thread.currentThread().getName() + " received: " + msg);
     }
 }
