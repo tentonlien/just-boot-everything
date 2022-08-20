@@ -11,6 +11,7 @@
 
     <modules>
         <module>just-boot-cache</module>
+        <module>just-boot-cloud</module>
         <module>just-boot-elasticsearch</module>
         <module>just-boot-file</module>
         <module>just-boot-kafka</module>
@@ -26,7 +27,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.6.RELEASE</version>
+        <version>2.6.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
