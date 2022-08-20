@@ -10,7 +10,7 @@
 
     <artifactId>just-boot-mybatis</artifactId>
     <version>1.0.0</version>
-    <name>mybatis</name>
+    <name>just-boot-mybatis</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

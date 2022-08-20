@@ -10,7 +10,7 @@
 
     <artifactId>just-boot-zookeeper</artifactId>
     <version>1.0.0</version>
-    <name>zookeeper</name>
+    <name>just-boot-zookeeper</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

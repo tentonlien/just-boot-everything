@@ -10,7 +10,7 @@
 
     <artifactId>just-boot-rabbitmq</artifactId>
     <version>1.0.0</version>
-    <name>rabbitmq demo</name>
+    <name>just-boot-rabbitmq</name>
     <description>Demo project for Spring Boot</description>
     <packaging>pom</packaging>
 

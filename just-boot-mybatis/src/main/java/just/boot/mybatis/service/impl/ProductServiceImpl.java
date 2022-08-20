@@ -1,7 +1,7 @@
-package just.boot.mongodb.service.impl;
+package just.boot.mybatis.service.impl;
 
-import just.boot.mongodb.entity.Product;
-import just.boot.mongodb.service.ProductService;
+import just.boot.mybatis.entity.Product;
+import just.boot.mybatis.service.ProductService;
 import org.springframework.stereotype.Service;
 
 /**

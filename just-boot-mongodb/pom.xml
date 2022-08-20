@@ -10,7 +10,7 @@
 
     <artifactId>just-boot-mongodb</artifactId>
     <version>1.0.0</version>
-    <name>mongodb</name>
+    <name>just-boot-mongodb</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

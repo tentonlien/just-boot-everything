@@ -10,7 +10,7 @@
 
     <artifactId>just-boot-file</artifactId>
     <version>1.0.0</version>
-    <name>file</name>
+    <name>just-boot-file</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

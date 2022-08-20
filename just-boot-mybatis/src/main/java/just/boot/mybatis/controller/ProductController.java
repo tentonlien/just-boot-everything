@@ -1,7 +1,7 @@
-package just.boot.mongodb.controller;
+package just.boot.mybatis.controller;
 
-import just.boot.mongodb.entity.Product;
-import just.boot.mongodb.service.ProductService;
+import just.boot.mybatis.entity.Product;
+import just.boot.mybatis.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

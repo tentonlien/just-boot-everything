@@ -1,4 +1,4 @@
-package just.boot.mongodb.entity;
+package just.boot.mybatis.entity;
 
 import lombok.Data;
 

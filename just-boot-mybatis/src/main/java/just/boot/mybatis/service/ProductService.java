@@ -1,6 +1,6 @@
-package just.boot.mongodb.service;
+package just.boot.mybatis.service;
 
-import just.boot.mongodb.entity.Product;
+import just.boot.mybatis.entity.Product;
 
 /**
  * @author Tenton Lien

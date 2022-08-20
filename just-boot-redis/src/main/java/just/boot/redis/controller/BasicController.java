@@ -1,6 +1,6 @@
 package just.boot.redis.controller;
 
-import just.boot.redis.util.RedisUtil;
+import just.boot.redis.util.SimpleLockUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import just.boot.redis.service.RedisService;
@@ -33,11 +33,11 @@ public class BasicController {
 
     @PostMapping("lock")
     public boolean lock(@RequestParam String key, @RequestParam String request, @RequestParam String expire) {
-        return RedisUtil.getLock(key, request, expire);
+        return SimpleLockUtil.lock(key, request, expire);
     }
 
     @DeleteMapping("lock")
     public boolean unlock(@RequestParam String key, @RequestParam String request) {
-        return RedisUtil.releaseLock(key, request);
+        return SimpleLockUtil.unlock(key, request);
     }
 }
