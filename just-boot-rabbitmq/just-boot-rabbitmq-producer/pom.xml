@@ -6,7 +6,6 @@
         <groupId>com.vancone</groupId>
         <artifactId>just-boot-rabbitmq</artifactId>
         <version>1.0.0</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <artifactId>just-boot-rabbitmq-producer</artifactId>
     <version>1.0.0</version>

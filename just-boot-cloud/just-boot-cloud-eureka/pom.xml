@@ -6,7 +6,6 @@
         <groupId>com.vancone</groupId>
         <artifactId>just-boot-cloud</artifactId>
         <version>1.0.0</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.vancone</groupId>
     <artifactId>just-boot-cloud-eureka</artifactId>

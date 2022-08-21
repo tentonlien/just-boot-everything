@@ -4,13 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.vancone</groupId>
-        <artifactId>just-boot-rabbitmq</artifactId>
+        <artifactId>just-boot-cloud</artifactId>
         <version>1.0.0</version>
     </parent>
-    <groupId>com.vancone</groupId>
-    <artifactId>just-boot-rabbitmq-consumer</artifactId>
+    <artifactId>just-boot-cloud-demo2</artifactId>
     <version>1.0.0</version>
-    <name>just-boot-rabbitmq-consumer</name>
+    <name>just-boot-cloud-demo2</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -22,6 +21,18 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <version>3.1.3</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>javax.servlet</groupId>
+                    <artifactId>servlet-api</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 
