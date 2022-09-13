@@ -21,6 +21,7 @@
         <module>just-boot-quartz</module>
         <module>just-boot-rabbitmq</module>
         <module>just-boot-redis</module>
+        <module>just-boot-sharding-jdbc</module>
         <module>just-boot-zookeeper</module>
     </modules>
 
